@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.Query;
 
 import java.util.List;
 
-public interface ProductDataAccessLayer extends JpaRepository<Product, Integer> {
+public interface ProductDataAccessObject extends JpaRepository<Product, Integer> {
 
     Product getProductByProductName(String productName);
 

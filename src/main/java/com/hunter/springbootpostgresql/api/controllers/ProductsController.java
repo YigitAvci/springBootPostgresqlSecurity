@@ -1,8 +1,6 @@
 package com.hunter.springbootpostgresql.api.controllers;
 
-import com.hunter.springbootpostgresql.business.abstracts.ProductService;
 import com.hunter.springbootpostgresql.business.concretes.ProductManager;
-import com.hunter.springbootpostgresql.core.entities.User;
 import com.hunter.springbootpostgresql.core.utilities.results.DataResult;
 import com.hunter.springbootpostgresql.core.utilities.results.Result;
 import com.hunter.springbootpostgresql.entities.concretes.Product;
